@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    
+    <title>Gallery</title>
+</head>
+<style>
+        #container
+  {
+      height: 100vh;
+      width: 100%;
+      /* position: relative; */
+      top: 0;
+      left: 0;
+      background: #e9e9eb;
+      /* padding: 30px 30px; */
+  }
+  /* logo */
+  #container #logo
+  {
+      position: absolute;
+      left: 8%;
+      top: 10px;
+      font-size: 30px;
+      z-index: 997; 
+      font-weight: bold;
+      color: #165397;
+  }
+  /* navbar */
+  #navbar
+  {
+      height: 90px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #fdfefe;
+      display: grid;
+      place-items: center;
+  }
+  #navbar ul
+  {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+  }
+  #navbar ul li
+  {
+      font-size: 20px;
+      margin: 0 45px;
+  }
+  #navbar ul li a
+  {
+      text-decoration: none;
+      color: #000;
+  }
+  #navbar ul li a:hover
+  {
+      color: #165397;
+  }
+  /* login button */
+  #navbar ul #login
+  {
+      height: 50px;
+      width: 120px;
+      position: absolute;
+      top: 10px;
+      right: 7%;
+      display: grid;
+      place-items: center;
+      background: #165397;
+      border-radius: 10px 20px;
+  }
+  #navbar ul #login a
+  {
+      color: #e9e9eb;
+  }
+  #navbar ul #login:hover
+  {
+      background: #000;
+  }
+  #container
+{
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    background: #e9e9eb;
+    /* padding: 30px 30px; */
+}
+/* logo */
+#container #logo
+{
+    position: absolute;
+    left: 8%;
+    top: 10px;
+    font-size: 30px;
+    z-index: 997;
+    font-weight: bold;
+    color: #165397;
+}
+</style>
+
+<body style="background-color: rgb(185, 255, 255);">
+    <section id="container">
+        <!-- logo -->
+       
+        <div id="logo" >
+            <div class="image">
+           
+
+<img src="assets/images/logo1.png" style="height: 50px; width: 50px;">
+
+</div>
+ </div>
+     <!-- navbar -->
+     <div id="navbar">
+        <div id="navbar">
+            <ul>
+                <li><a href="index.html" target="blank">Home</a></li>
+                <li><a href="About.html" target="blank">About</a></li>
+                <li><a href="gallery.html" target="blank">Gallery</a></li>
+                <li><a href="compare.html" target="blank">Compare Page</a></li>
+                <li><a href="contact.html" target="blank">Contact</a></li>
+                <!-- login Button -->
+                <li id="login"><a href="login.html" target="blank">Login</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <input type="radio" name="Photos" id="check1" checked>
+    <input type="radio" name="Photos" id="check2">
+    <input type="radio" name="Photos" id="check3">
+    <input type="radio" name="Photos" id="check4">
+
+   <div class="container">
+       <h1 style="margin-top: 100px;"><span style="font-size: 70px; color: rgb(233, 0, 0);"><b>O</span>ur <span style="font-size: 70px; color: rgb(233, 0, 0);" >S</span>ports <span style="font-size: 70px; color: rgb(233, 0, 0);">G</span>allery<span style=" color: rgb(233, 0, 0);">:</span></b></h1>
+       <div class="top-content">
+           <h3>Sports Gallery</h3>
+           <label for="check1">All Photos</label>
+           <label for="check2">Bats Photos</label>
+           <label for="check3">Hockeys Photos</label>
+           <label for="check4">Grounds Photos</label> 
+       </div>
+       <div class="sports-gallery">
+           <div class="pic grounds">
+               <img src="ground1.jpg">
+           </div>
+           <div class="pic bats">
+            <img src="bat1.jpg">
+        </div>
+        <div class="pic hockey">
+            <img src="hockey1.jpg">
+        </div>
+        <div class="pic grounds">
+            <img src="ground2.jpg">
+        </div>
+        <div class="pic bats">
+         <img src="bat2.jpg">
+     </div>
+     <div class="pic hockey">
+         <img src="hockey2.png">
+     </div>
+     <div class="pic grounds">
+        <img src="ground3.jpg">
+    </div>
+    <div class="pic bats">
+     <img src="bat3.jpg">
+ </div>
+ <div class="pic hockey">
+     <img src="hockey3.jpg">
+ </div>
+ <div class="pic grounds">
+    <img src="ground4.jpg">
+</div>
+<div class="pic bats">
+ <img src="bat4.jpg">
+</div>
+<div class="pic hockey">
+ <img src="hockey4.jpg">
+</div>
+
+
+  
+      
+       </div> 
+   </div> 
+
+</body>
+</html>
